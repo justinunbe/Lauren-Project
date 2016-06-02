@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css?family=Cantarell:700");
+@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans:100");
+
+/*VIDEO CODE*/
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+
+/*NAV BAR CODE    */
+}
+.nav-bar {
+  height: 40vh;
+  width: 100%;
+  background-color: white;
+  opacity: .9;
+  border-bottom:#65696B;
+  border-style: solid;
+}
+
+.SD-container {
+  height: 27vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items:flex-end;
+  padding-bottom: 12px;
+}
+#SD {
+  font-size: 80px;
+  color: #B9E0DB;
+font-family: 'Cantarell', sans-serif;
+}
+
+.line-above {
+height: 3px;
+width: 60%;
+background-color: #DEDEDE;
+margin: auto;
+
+}
+
+.nav-text-container {
+  height: 7vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.nav-text {
+  font-size: 25px;
+color: #000000;
+font-family: 'Alegreya Sans', sans-serif;
+}
+
+.line-below {
+  height: 3px;
+  width: 60%;
+  background-color: #DEDEDE;
+  margin: auto;
+}
+
+.spacer-div {
+  height: 80vh;
+  width: 100%;
+}
+/*TRUCK IMG CODE*/
+.Truck-pic {
+  background: url("./pic/Ford-Truck.jpg");
+  width: 100%;
+  height: 120vh;
+  background-position: center;
+  background-size: cover;
+  border-top: black;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.truck-pic-writing {
+  font-size: 100px;
+  color: white;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+/*FISHING IMAGE*/
+.Fishing-pic {
+  background: url("./pic/fishing.jpeg");
+  width: 100%;
+  height: 120vh;
+  background-position: center;
+  background-size: cover;
+  border-top: black;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Fishing-pic-writing {
+  font-size: 100px;
+  color: white;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+/*BEACH IMAGE*/
+.Beach-pic {
+  background: url("./pic/beach.jpeg");
+  width: 100%;
+  height: 120vh;
+  background-position: center;
+  background-size: cover;
+  border-top: black;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Beach-pic-writing {
+  font-size: 100px;
+  color: white;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+/*FOOTER*/
+.footer-container {
+  width: 100%;
+  height: 480px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  border-top: black;
+  border-style: solid;
+}
+
+/*.footer-words-container {
+height: 100px;
+width: 100%;
+background-color: #C8E9E5;
+}*/
